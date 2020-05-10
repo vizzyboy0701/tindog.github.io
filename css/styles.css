@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Monoton&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+#title{
+  background-color: #ff4c68;
+  color:white;
+}
+
+h1{
+  font-family: "Lobster",cursive;
+  font-size: 5.3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding:3% 15% 4%;
+  color: #ffffff;
+}
+
+
+body{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+h2{
+  font-family: "Lobster",cursive;
+  font-size: 3.5rem;
+  line-height: 1.6;
+}
+/* navigation */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-size:3.2rem;
+  font-family:"Montserrat";
+  font-weight: bold;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-size: 1.4rem;
+  font-family: "Montserrat-light",sans-serif ;
+
+}
+
+.download-buttons{
+  margin:5% 4% 5% 0;
+  font-size:28px;
+}
+
+.title-image{
+  width:60%;
+  transform:rotate(25deg);
+  margin:0 0 0 10%;
+  position:absolute;
+  left:5%;
+}
+
+#features{
+  padding:7% 15%;
+  background-color: #fff;
+  position:relative;
+}
+
+h3{
+  font-family: "Lobster",cursive;
+  font-size: 2rem;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color:#ffa372;
+  margin-bottom:1rem;
+}
+
+.icon:hover{
+  color:#ff4c68
+}
+
+/* testimonials section */
+
+#testimonials{
+  text-align:center;
+  background-color: #ffa372;
+  color:#fff;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width:10%;
+  margin: 20px;
+}
+
+#press{
+  padding-bottom:3%;
+  text-align: center;
+  background-color: #ffa372;
+}
+
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+.carousel-indicators{
+position:relative;
+top:530px;
+text-align:center;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* card */
+.card-row{
+  padding:2% 5%;
+}
+
+.pricing-heading{
+  font-size:3rem;
+  text-align: center;
+}
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding:2% 3%;
+}
+
+.card-header{
+  background-color:#ff4c68;
+  color: white;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0);
+    margin:auto;
+  }
+  .download-buttons{
+    margin:5%;
+  }
+  }
+}
+
+@media(min-width: 1024px){
+  .title-image{
+    width:90%;
+    margin:auto;
+  }
+}
+
+/* cta */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding:7% 15%;
+}
+
+.cta-header{
+  color:white;
+  font-size:4rem;
+}
+
+/* footer */
+
+#footer{
+  padding:7% 15% 4%;
+  text-align: center;
+}
+
+.footer-icons{
+  padding:50px 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-instagram{
+  color:red;
+  text-decoration: none;
+}
+
+.fa-envelope{
+  color: orange;
+  text-decoration: none;
+}
+
+.footer-para{
+  font-size: 1.2rem;
+  padding:3% 0;
+}
