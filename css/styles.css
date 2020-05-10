@@ -163,7 +163,7 @@ text-align:center;
   }
 }
 
-@media(min-width: 1024px){
+@media(min-width: 1024px) and (max-width:1027px){
   .title-image{
     width:90%;
     margin:auto;
